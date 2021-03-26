@@ -4,6 +4,6 @@ import (
 	"multihash.go"
 )
 
-func Core() {
-	multihash.Sm3();
+func Core() string {
+	return multihash.Sm3();
 }
